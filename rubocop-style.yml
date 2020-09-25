@@ -1,0 +1,65 @@
+Style/AsciiComments:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/TrailingCommaInArrayLiteral:
+  Enabled: false
+
+Style/TrailingCommaInHashLiteral:
+  Enabled: false
+
+Style/TrailingCommaInArguments:
+  Enabled: false
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Style/NegatedIf:
+  Enabled: false
+
+Style/NumericLiterals:
+  Enabled: false
+
+Style/SignalException:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/BlockDelimiters:
+  Enabled: false
+
+Style/RedundantSelf:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/WordArray:
+  Enabled: false
+
+Style/RaiseArgs:
+  EnforcedStyle: compact
+
+Style/ParallelAssignment:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/HashEachMethods:
+  Enabled: true
+
+#Style/HashTransformValues:
+#   Enabled: true
+
+#Style/HashTransformKeys:
+#   Enabled: true

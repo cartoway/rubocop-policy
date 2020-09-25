@@ -1,0 +1,12 @@
+require:
+  - rubocop-performance
+  - rubocop-minitest
+
+inherit_from:
+  - rubocop-all.yml
+  - rubocop-layout.yml
+  - rubocop-lint.yml
+  - rubocop-metrics.yml
+  - rubocop-naming.yml
+  - rubocop-style.yml
+  - rubocop-performance.yml
