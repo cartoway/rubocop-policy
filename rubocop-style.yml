@@ -52,9 +52,6 @@ Style/RaiseArgs:
 Style/ParallelAssignment:
   Enabled: false
 
-Style/FrozenStringLiteralComment:
-  Enabled: false
-
 Style/HashEachMethods:
   Enabled: true
 

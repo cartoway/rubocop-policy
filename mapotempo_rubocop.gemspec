@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.name        = "mapotempo_rubocop"
   spec.version     = MapotempoRubocop::VERSION
   spec.authors     = ["Valentin Le Guennec", "Yann Grégoire"]
-  spec.email       = ["val.leguennec@gmail.com", "yann@mapotempo.com"]
-  spec.homepage    = "http://mapotempo.com"
+  spec.email       = %w[val.leguennec@gmail.com yann@mapotempo.com]
+  spec.homepage    = "https://mapotempo.com"
   spec.summary     = "Mapotempo rubocop"
   spec.description = "Rubocop rules in mapotempo projects."
   spec.license     = "AGPL"
