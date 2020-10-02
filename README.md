@@ -1,6 +1,6 @@
 # MapotempoRubocop
 
-This is Mapotempo's rubocops rules for all Mapotempo's projects. 
+This is Mapotempo's rubocop rules for all its projects. 
 
 ## Installation
 
