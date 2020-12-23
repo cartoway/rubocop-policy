@@ -18,9 +18,9 @@ Gem::Specification.new do |spec|
   spec.test_files = Dir["test/**/*"]
 
 
-  spec.add_dependency 'rubocop'
-  spec.add_dependency 'rubocop-performance'
-  spec.add_dependency 'rubocop-minitest'
+  spec.add_dependency 'rubocop', '~> 0.81.0'
+  spec.add_dependency 'rubocop-performance', '~> 1.5.2'
+  spec.add_dependency 'rubocop-minitest', '~> 0.8.1'
 
   spec.add_development_dependency 'bundler', '~> 1.17.3'
   spec.add_development_dependency 'rake', '~> 10.0'
