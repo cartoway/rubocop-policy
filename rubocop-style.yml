@@ -4,7 +4,19 @@ Style/AsciiComments:
 Style/Documentation:
   Enabled: false
 
+Style/BlockDelimiters:
+  Enabled: false
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Style/MultilineTernaryOperator:
+  Enabled: false
+
 Style/DoubleNegation:
+  Enabled: false
+
+Style/NegatedIf:
   Enabled: false
 
 Style/TrailingCommaInArrayLiteral:
@@ -16,25 +28,13 @@ Style/TrailingCommaInHashLiteral:
 Style/TrailingCommaInArguments:
   Enabled: false
 
-Style/MultilineBlockChain:
-  Enabled: false
-
-Style/NegatedIf:
-  Enabled: false
-
 Style/NumericLiterals:
-  Enabled: false
-
-Style/SignalException:
   Enabled: false
 
 Style/IfUnlessModifier:
   Enabled: false
 
 Style/ClassAndModuleChildren:
-  Enabled: false
-
-Style/BlockDelimiters:
   Enabled: false
 
 Style/RedundantSelf:
@@ -55,8 +55,8 @@ Style/ParallelAssignment:
 Style/HashEachMethods:
   Enabled: true
 
-#Style/HashTransformValues:
-#   Enabled: true
+Style/HashTransformValues:
+  Enabled: true
 
-#Style/HashTransformKeys:
-#   Enabled: true
+Style/HashTransformKeys:
+  Enabled: true

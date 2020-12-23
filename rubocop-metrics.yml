@@ -1,5 +1,8 @@
 Metrics/MethodLength:
-  Enabled: false
+  Max: 30
+
+Metrics/ClassLength:
+  Max: 1000
 
 Metrics/AbcSize:
   Enabled: false
@@ -8,7 +11,4 @@ Metrics/PerceivedComplexity:
   Enabled: false
 
 Metrics/CyclomaticComplexity:
-  Enabled: false
-
-Metrics/ClassLength:
   Enabled: false

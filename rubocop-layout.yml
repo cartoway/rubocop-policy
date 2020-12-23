@@ -1,11 +1,8 @@
-#Layout/ParameterAlignment:
-#   Enabled: false
+Layout/LineLength:
+  Max: 120
 
 Layout/SpaceBeforeBlockBraces:
   Enabled: false
-
-Layout/LineLength:
-  Max: 120
 
 Layout/SpaceInsideHashLiteralBraces:
   Enabled: false
@@ -13,17 +10,8 @@ Layout/SpaceInsideHashLiteralBraces:
 Layout/FirstHashElementIndentation:
   Enabled: false
 
-Layout/CommentIndentation:
-  Enabled: false
-
 Layout/FirstArrayElementIndentation:
   Enabled: false
 
-Layout/IndentationWidth:
-  Enabled: false
-
-Layout/EndAlignment:
-  Enabled: false
-
-Layout/ElseAlignment:
+Layout/CommentIndentation:
   Enabled: false

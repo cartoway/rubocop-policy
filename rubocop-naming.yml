@@ -1,2 +1,2 @@
 Naming/MethodParameterName:
-  MinNameLength: 3
+  Enabled: false
