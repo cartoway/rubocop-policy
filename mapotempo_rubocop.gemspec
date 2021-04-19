@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.homepage    = 'https://mapotempo.com'
   spec.summary     = 'Mapotempo rubocop'
   spec.description = 'Rubocop rules in mapotempo projects.'
-  spec.license     = 'AGPL-3.0-or-later'
+  spec.license     = 'MIT'
 
   spec.files = Dir['{app,config,db,lib}/**/*', 'LICENSE', 'Rakefile', 'README.md']
   spec.test_files = Dir['test/**/*']

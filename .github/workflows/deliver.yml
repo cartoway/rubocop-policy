@@ -1,0 +1,38 @@
+name: Deliver CI
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v1
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.5
+      - name: Install dependencies
+        run: bundle install
+      - name: Run tests
+        run: bundle exec rake test
+      - name: Build
+        run: gem build mapotempo_rubocop.gemspec
+        shell: bash
+      - name: Post build
+        run: ./.github/actions/post-build.sh
+        shell: bash
+  deliver:
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      RUBYGEM_API: ${{ secrets.RUBYGEM_API }}
+    steps:
+      - uses: actions/checkout@v1
+      - name: Deliver
+        run: ./.github/actions/deliver.sh
+        shell: bash
