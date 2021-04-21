@@ -1,6 +1,8 @@
 # MapotempoRubocop
+![Test](https://github.com/Mapotempo/mapotempo_rubocop/actions/workflows/main.yml/badge.svg)
+![Deliver](https://github.com/Mapotempo/mapotempo_rubocop/actions/workflows/deliver.yml/badge.svg)
 
-This is Mapotempo's rubocop rules for all its projects. 
+This is Mapotempo's rubocop rules for all its projects.
 
 ## Installation
 
@@ -15,7 +17,7 @@ And then execute:
     $ bundle install
 
 
-Create a `.rubocop.yml` file at root of your project and add the following lines in it 
+Create a `.rubocop.yml` file at root of your project and add the following lines in it
 
 ```yml
 inherit_gem:
@@ -27,7 +29,7 @@ inherit_gem:
 
 Pour les utilisateurs de Sublime, aller dans `Preferences > Package Settings > Sublime Linter > Settings`
 ```yml
-{ 
+{
     "linters": {
         "rubocop": {
             "use_bundle_exec": true,
@@ -41,7 +43,7 @@ Pour les utilisateurs de Sublime, aller dans `Preferences > Package Settings > S
 
 Ajouter aussi le chemin exact du bundler. exemple : `~/.rbenv/shims/bundle`
 
-```yml 
+```yml
 {
     paths": {
 	    "linux": ["~/npm_folder/bin", "~/.rbenv/shims", "~/.rbenv/shims/bundle"],
