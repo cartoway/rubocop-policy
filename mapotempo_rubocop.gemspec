@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.description = 'Rubocop rules in mapotempo projects.'
   spec.license     = 'MIT'
 
-  spec.files = Dir['{app,config,db,lib}/**/*', 'LICENSE', 'Rakefile', 'README.md']
+  spec.files = Dir['{app,config,db,lib}/**/*', 'LICENSE', 'Rakefile', 'README.md', '*.yml']
   spec.test_files = Dir['test/**/*']
 
   spec.add_dependency 'rubocop', '~> 0.81.0'
