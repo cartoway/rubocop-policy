@@ -8,3 +8,4 @@
 /tmp/
 mapotempo_rubocop-*.gem
 .byebug_history
+.devcontainer
