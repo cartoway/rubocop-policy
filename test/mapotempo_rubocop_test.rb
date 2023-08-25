@@ -11,8 +11,8 @@ class MapotempoRubocopTest < Minitest::Test
     parallel = ENV['RUBOCOP_PARALLEL'] || ENV['CI'] ? '--parallel' : nil
     # parallel option could cause not to use rubocop from bundle
     options = "#{parallel} -f c --config .rubocop.yml --fail-level E --display-only-fail-level-offenses"
-    cmd = "bundle exec rubocop ./* #{options}"
-    o = system(cmd, [:out, :err] => '/dev/null')
+    cmd = "bundle exec rubocop #{options}"
+    o = system(cmd)
     assert o, "New Rubocop offenses added to the project, run: #{cmd}"
   end
 end
