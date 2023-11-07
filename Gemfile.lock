@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mapotempo_rubocop (0.0.0)
+    rubocop-policy (0.0.0)
       rubocop (~> 0.81.0)
       rubocop-minitest (~> 0.8.1)
       rubocop-performance (~> 1.5.2)
@@ -42,7 +42,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.17.3)
   byebug
-  mapotempo_rubocop!
+  rubocop-policy!
   minitest
   minitest-focus
   rake (~> 10.0)

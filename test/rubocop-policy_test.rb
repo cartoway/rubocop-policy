@@ -2,9 +2,9 @@
 
 require 'test_helper'
 
-class MapotempoRubocopTest < Minitest::Test
+class RubocopPolicyTest < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::MapotempoRubocop::VERSION
+    refute_nil ::RubocopPolicy::VERSION
   end
 
   def test_config_is_correct

@@ -6,5 +6,5 @@
 /pkg/
 /spec/reports/
 /tmp/
-mapotempo_rubocop-*.gem
+rubocop-policy-*.gem
 .byebug_history

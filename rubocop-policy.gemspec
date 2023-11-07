@@ -3,17 +3,17 @@
 $LOAD_PATH.push File.expand_path('lib', __dir__)
 
 # Maintain your gem's version:
-require_relative 'lib/mapotempo_rubocop/version'
+require_relative 'lib/rubocop-policy/version'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |spec|
-  spec.name        = 'mapotempo_rubocop'
-  spec.version     = MapotempoRubocop::VERSION
+  spec.name        = 'rubocop-policy'
+  spec.version     = RubocopPolicy::VERSION
   spec.authors     = ['Valentin Le Guennec', 'Yann Grégoire']
-  spec.email       = %w[val.leguennec@gmail.com yann@mapotempo.com]
-  spec.homepage    = 'https://mapotempo.com'
-  spec.summary     = 'Mapotempo rubocop'
-  spec.description = 'Rubocop rules in mapotempo projects.'
+  spec.email       = %w[val.leguennec@gmail.com]
+  spec.homepage    = 'https://cartoroute.com'
+  spec.summary     = 'rubocop policy'
+  spec.description = 'Rubocop rules in cartoroute projects.'
   spec.license     = 'MIT'
 
   spec.files = Dir['{app,config,db,lib}/**/*', 'LICENSE', 'Rakefile', 'README.md', '*.yml']

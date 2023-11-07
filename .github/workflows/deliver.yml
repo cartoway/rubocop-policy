@@ -22,7 +22,7 @@ jobs:
       - name: Run tests
         run: bundle exec rake test
       - name: Build
-        run: gem build mapotempo_rubocop.gemspec
+        run: gem build rubocop-policy.gemspec
         shell: bash
       - name: Post build
         run: ./.github/actions/post-build.sh
