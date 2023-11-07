@@ -1,15 +1,15 @@
-# MapotempoRubocop
-![Test](https://github.com/Mapotempo/mapotempo_rubocop/actions/workflows/main.yml/badge.svg)
-![Deliver](https://github.com/Mapotempo/mapotempo_rubocop/actions/workflows/deliver.yml/badge.svg)
+# RubocopPolicy
+![Test](https://github.com/routix-project/rubocop-policy/actions/workflows/main.yml/badge.svg)
+![Deliver](https://github.com/routix-project/rubocop-policy/actions/workflows/deliver.yml/badge.svg)
 
-This is Mapotempo's rubocop rules for all its projects.
+This is Cartoroute's rubocop rules for all its projects.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-  gem 'mapotempo_rubocop', github: 'Mapotempo/mapotempo_rubocop'
+  gem 'rubocop-policy', github: 'routix-project/rubocop-policy'
 ```
 
 And then execute:
@@ -21,7 +21,7 @@ Create a `.rubocop.yml` file at root of your project and add the following lines
 
 ```yml
 inherit_gem:
-  mapotempo_rubocop:
+  rubocop-policy:
     - rubocop-default.yml
 ```
 

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require 'mapotempo_rubocop/version'
+require 'rubocop-policy/version'
 
-module MapotempoRubocop
+module RubocopPolicy
   class Error < StandardError; end
 end
