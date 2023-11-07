@@ -8,3 +8,4 @@
 /tmp/
 rubocop-policy-*.gem
 .byebug_history
+.devcontainer
