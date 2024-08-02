@@ -52,12 +52,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 2.3.26)
+  bundler (~> 2.4.19)
   byebug
-  rubocop-policy!
   minitest
   minitest-focus
   rake (~> 13.0.6)
+  rubocop-policy!
 
 BUNDLED WITH
-   2.3.26
+   2.4.19
