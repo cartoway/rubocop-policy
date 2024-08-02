@@ -1,6 +1,6 @@
 # RubocopPolicy
-![Test](https://github.com/routix-project/rubocop-policy/actions/workflows/main.yml/badge.svg)
-![Deliver](https://github.com/routix-project/rubocop-policy/actions/workflows/deliver.yml/badge.svg)
+![Test](https://github.com/cartoway/rubocop-policy/actions/workflows/main.yml/badge.svg)
+![Deliver](https://github.com/cartoway/rubocop-policy/actions/workflows/deliver.yml/badge.svg)
 
 This is Cartoroute's rubocop rules for all its projects.
 
@@ -9,7 +9,7 @@ This is Cartoroute's rubocop rules for all its projects.
 Add this line to your application's Gemfile:
 
 ```ruby
-  gem 'rubocop-policy', github: 'routix-project/rubocop-policy'
+  gem 'rubocop-policy', github: 'cartoway/rubocop-policy'
 ```
 
 And then execute:
