@@ -23,6 +23,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'rubocop-minitest', '~> 0.31.0'
   spec.add_dependency 'rubocop-performance', '~> 1.19.0'
 
-  spec.add_development_dependency 'bundler', '~> 2.3.26'
+  spec.add_development_dependency 'bundler', '~> 2.4.19'
   spec.add_development_dependency 'rake', '~> 13.0.6'
 end
