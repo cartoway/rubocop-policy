@@ -10,13 +10,13 @@ Pin a release tag in your application's Gemfile (do not track `master` —
 RuboCop upgrades are published as new tags):
 
 ```ruby
-gem 'rubocop-policy', github: 'cartoway/rubocop-policy', tag: 'v0.1.0'
+gem 'rubocop-policy', github: 'cartoway/rubocop-policy', tag: 'v0.2.0'
 ```
 
 Or from RubyGems after a tagged deliver:
 
 ```ruby
-gem 'rubocop-policy', '~> 0.1.0'
+gem 'rubocop-policy', '~> 0.2.0'
 ```
 
 Then:
@@ -33,7 +33,9 @@ inherit_gem:
 
 ### Upgrading
 
-1. Pick the next tag (e.g. `v0.2.0`) once published.
+`v0.2.0` pins RuboCop `~> 1.76.0` (solargraph-compatible).
+
+1. Pick the next tag once published.
 2. Bump `tag:` / the gem version constraint in the Gemfile.
 3. Run `bundle update rubocop-policy` and fix new RuboCop offenses in that app.
 
