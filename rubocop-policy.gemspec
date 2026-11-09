@@ -19,9 +19,9 @@ Gem::Specification.new do |spec|
   spec.files = Dir['{app,config,db,lib}/**/*', 'LICENSE', 'Rakefile', 'README.md', '*.yml']
   spec.test_files = Dir['test/**/*']
 
-  spec.add_dependency 'rubocop', '~> 1.76.0'
-  spec.add_dependency 'rubocop-minitest', '~> 0.38.0'
-  spec.add_dependency 'rubocop-performance', '~> 1.25.0'
+  spec.add_dependency 'rubocop', '~> 1.92.0'
+  spec.add_dependency 'rubocop-minitest', '~> 0.41.0'
+  spec.add_dependency 'rubocop-performance', '~> 1.27.0'
 
   spec.add_development_dependency 'bundler', '~> 2.4.19'
   spec.add_development_dependency 'rake', '~> 13.0.6'
