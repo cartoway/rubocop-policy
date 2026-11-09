@@ -1,6 +1,9 @@
 Layout/LineLength:
   Max: 120
 
+Layout/ExtraSpacing:
+  AllowForAlignment: true
+
 Layout/SpaceBeforeBlockBraces:
   Enabled: false
 

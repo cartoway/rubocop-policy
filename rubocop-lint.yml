@@ -3,3 +3,6 @@ Lint/RaiseException:
 
 Lint/StructNewOverride:
   Enabled: true
+
+Lint/AmbiguousOperatorPrecedence:
+  Enabled: false
