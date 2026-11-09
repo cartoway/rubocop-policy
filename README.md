@@ -6,24 +6,36 @@ This is Cartoroute's rubocop rules for all its projects.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Pin a release tag in your application's Gemfile (do not track `master` —
+RuboCop upgrades are published as new tags):
 
 ```ruby
-  gem 'rubocop-policy', github: 'cartoway/rubocop-policy'
+gem 'rubocop-policy', github: 'cartoway/rubocop-policy', tag: 'v0.1.0'
 ```
 
-And then execute:
+Or from RubyGems after a tagged deliver:
+
+```ruby
+gem 'rubocop-policy', '~> 0.1.0'
+```
+
+Then:
 
     $ bundle install
 
-
-Create a `.rubocop.yml` file at root of your project and add the following lines in it
+Create a `.rubocop.yml` at the project root:
 
 ```yml
 inherit_gem:
   rubocop-policy:
     - rubocop-default.yml
 ```
+
+### Upgrading
+
+1. Pick the next tag (e.g. `v0.2.0`) once published.
+2. Bump `tag:` / the gem version constraint in the Gemfile.
+3. Run `bundle update rubocop-policy` and fix new RuboCop offenses in that app.
 
 ---
 
